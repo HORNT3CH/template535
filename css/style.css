@@ -157,6 +157,54 @@ h3 span {
     margin-bottom: 40px;
 }
 
+#process {
+    background-image: url("/images/work-process-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.process h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.process p {
+    margin-bottom: 40px;
+}
+
+.process-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.process-card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: #9177A3;
+    align-items: center;
+    background-color: #fff;
+    width: 200px;
+    height: 240px;
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 15px 15px 0px rgba(255, 255, 255, 0.2);
+}
+
 .hr {
     bottom: 0px;
     width: 100%;
